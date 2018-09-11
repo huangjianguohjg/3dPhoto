@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HJGLauchController.h"
+#import "rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController.h"
 #import "BaseNavigationController.h"
 
 @interface AppDelegate ()
@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    HJGLauchController *vc = [[HJGLauchController alloc]init];
+    rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController *vc = [[rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController alloc]init];
     
     
     //创建窗口

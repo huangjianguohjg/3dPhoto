@@ -48,7 +48,7 @@
 #import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h"
 #import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h"
 #import "HJGBaseDataModel.h"
-#import "HJGBaseViewModel.h"
+#import "rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel.h"
 #import "HJGSaveTool.h"
 #import "HJGGoogleA.h"
 

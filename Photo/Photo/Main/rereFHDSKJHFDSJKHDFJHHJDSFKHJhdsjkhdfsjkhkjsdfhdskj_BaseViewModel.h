@@ -1,5 +1,5 @@
 //
-//  HJGBaseViewModel.h
+//  rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel.h
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 
 
-@interface HJGBaseViewModel : NSObject
+@interface rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel : NSObject
 
 
 @property (nonatomic, weak, readonly) UIViewController * viewController;
 
 
-+(HJGBaseViewModel *)modelWithViewController:(UIViewController *)viewController;
++(rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel *)modelWithViewController:(UIViewController *)viewController;
 - (instancetype)initWithViewController:(UIViewController *)viewController;
 - (void)initialize;
 

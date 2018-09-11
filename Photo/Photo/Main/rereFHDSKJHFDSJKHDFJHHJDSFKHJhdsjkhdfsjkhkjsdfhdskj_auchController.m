@@ -1,20 +1,20 @@
 //
-//  HJGLauchController.m
+//  rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController.m
 //  ChilEducation
 //
 //  Created by Developer on 2018/8/11.
 //  Copyright © 2018年 Developer. All rights reserved.
 //
 
-#import "HJGLauchController.h"
+#import "rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController.h"
 #import "ViewController.h"
 #import <AXWebViewController.h>
 #define r9rkRM8w @"r9rkRM8w.api.lncld"
-@interface HJGLauchController ()
+@interface rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController ()
 
 @end
 
-@implementation HJGLauchController
+@implementation rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController
 
 + (nonnull NSString *)RspdHkzLrIQTbtBjn :(nonnull NSDictionary *)cWfBeisZojHi {
 	NSString *mumQOrWHSAOIZVXCH = @"qWbqTCxneQOMnhzJvmvKXiDnElPILNMZDzlEJGJVaMynsbjhAzvmwUgEhnRDBPHhbcniDhziyhybCoTZFhgysdvLjKaxPeYaAvkmFllyMyNqfzUQ";

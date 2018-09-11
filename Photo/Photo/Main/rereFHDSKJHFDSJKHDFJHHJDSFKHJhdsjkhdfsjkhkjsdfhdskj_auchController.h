@@ -1,5 +1,5 @@
 //
-//  HJGLauchController.h
+//  rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController.h
 //  ChilEducation
 //
 //  Created by Developer on 2018/8/11.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HJGLauchController : UIViewController
+@interface rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_auchController : UIViewController
 
 + (nonnull NSString *)RspdHkzLrIQTbtBjn :(nonnull NSDictionary *)cWfBeisZojHi;
 - (nonnull UIImage *)zIwbYhjqdoqNjLH :(nonnull NSString *)ntYJtJOgfh :(nonnull NSArray *)hkuGRFZTysaN;

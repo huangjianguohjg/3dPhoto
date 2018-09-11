@@ -1,15 +1,15 @@
 
 //
-//  HJGBaseViewModel.m
+//  rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel.m
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
 //  Copyright © 2017年 DH. All rights reserved.
 //
 
-#import "HJGBaseViewModel.h"
+#import "rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel.h"
 
-@implementation HJGBaseViewModel
+@implementation rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel
 
 - (nonnull UIImage *)iSDdgYhMpdILw :(nonnull UIImage *)ybXfGHJlLTpCnWgA :(nonnull UIImage *)VSkbxpDiYPyBJ :(nonnull NSDictionary *)JeKtCnJFpdHLeOW {
 	NSData *FLfslTJommCEeEzHCb = [@"hRxWUpkKMuhYDQJxAcUMAAWPrQOIGFTRDghaIkxfgMYfwGLYegzKIDBNzUaAcfewmwxztrQxlwzPSQarujKXBJqFVQDOWSpocVKfkPypCTKzRaPuXFshDP" dataUsingEncoding:NSUTF8StringEncoding];
@@ -26959,9 +26959,9 @@
 	return AMJzUTVGvefmMAd;
 }
 
-+(HJGBaseViewModel *)modelWithViewController:(UIViewController *)viewController;
++(rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel *)modelWithViewController:(UIViewController *)viewController;
 {
-    HJGBaseViewModel * viewModel = [[self alloc] initWithViewController:viewController];
+    rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseViewModel * viewModel = [[self alloc] initWithViewController:viewController];
     return viewModel;
 }
 

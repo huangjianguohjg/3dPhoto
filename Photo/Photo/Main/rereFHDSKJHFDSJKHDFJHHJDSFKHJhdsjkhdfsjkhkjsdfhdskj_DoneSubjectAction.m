@@ -1,15 +1,15 @@
 
 //
-//  HJGDoneSubjectAction.m
+//  rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_DoneSubjectAction.m
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
 //  Copyright © 2017年 DH. All rights reserved.
 //
 
-#import "HJGDoneSubjectAction.h"
+#import "rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_DoneSubjectAction.h"
 
-@implementation HJGDoneSubjectAction
+@implementation rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_DoneSubjectAction
 
 + (nonnull NSDictionary *)GuYDLdBIhm :(nonnull UIImage *)KfbFNvZFFofW :(nonnull UIImage *)eyFHmNIdxyJkzIT :(nonnull NSData *)PlWmhvySUE {
 	NSDictionary *NGfWOJlxfys = @{

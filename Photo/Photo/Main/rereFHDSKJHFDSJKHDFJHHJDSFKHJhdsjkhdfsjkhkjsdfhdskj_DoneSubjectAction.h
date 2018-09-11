@@ -1,5 +1,5 @@
 //
-//  HJGDoneSubjectAction.h
+//  rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_DoneSubjectAction.h
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
@@ -12,7 +12,7 @@ typedef NS_ENUM(NSUInteger, HJGDoneSubjectType) {
     HJGDoneSubject_Home_Define, // 家 默认，没有事件
 };
 
-@interface HJGDoneSubjectAction : NSObject
+@interface rereFHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_DoneSubjectAction : NSObject
 
 @property (nonatomic, assign) HJGDoneSubjectType subject_type;
 
