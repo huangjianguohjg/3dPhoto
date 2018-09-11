@@ -1,0 +1,162 @@
+//
+//  PrefixHeader.pch
+//  TodayNews
+//
+//  Created by Developer on 2018/8/3.
+//  Copyright © 2018年 Developer. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AFNetworking.h>
+#import <SVProgressHUD.h>
+#import "UIImageView+WebCache.h"
+#import <IQKeyboardManager.h>
+#import <UIColor+MCUIColorsUtils.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <YYText.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import <WRNavigationBar.h>
+
+#import "BaseDataConfig.h"
+//工具类
+#import "UIView+ChangeSize.h"
+#import "UILabel+HJGLableFit.h"
+#import "UIImage+Image.h"
+#import "NSData+Encryption.h"
+#import "HJGNetManger.h"
+#import <BANetManager.h>
+#import "HJGButton.h"
+
+#import "UIFont+HJGFont.h"
+
+#import "UIColor+AppTheme.h"
+#import "NSString+SizeFont.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "NSArray+Addition.h"
+#import "NSMutableArray+Addition.h"
+#import "NSArray+MasoryJiugongge.h"
+#import "NSMutableDictionary+Addition.h"
+//#import "UIControl+Custom.h"
+#import "UIButton+CustomClick.h"
+#import "NSDictionary+HJGDictionary.h"
+//#import "UIControl+Custom.h"
+#import "UIView+Badge.h"
+
+
+
+//全局工具类
+#import "HJGBaseTableViewCell.h"
+#import "HJGBaseView.h"
+#import "HJGBaseDataModel.h"
+#import "HJGBaseViewModel.h"
+#import "HJGSaveTool.h"
+//#import "HJGToolMethod.h"
+
+//#import "HJGMacro.h"
+//#import "HJGLoginBaseModel.h"
+//#import "FLShare.h"
+//#import "MJCSegmentInterface.h"
+//#import <TYTabPagerController.h>
+#import "HJGGoogleA.h"
+//#import "HJGChatGetNickName.h"
+
+
+#define IOS8_OR_LATER        ( [[[UIDevice currentDevice] systemVersion] compare:@"8.0"] != NSOrderedAscending )
+#define IOS7_OR_LATER        ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
+#define IOS6_OR_LATER        ( [[[UIDevice currentDevice] systemVersion] compare:@"6.0"] != NSOrderedAscending )
+
+#define IOS7_OR_EARLIER        ( !IOS8_OR_LATER )
+#define IOS6_OR_EARLIER        ( !IOS7_OR_LATER )
+
+#define IOS9_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+
+#define FlCommonFontName      IOS9_OR_LATER ? @"Helvetica-Light" : @"PingFangSC-Regular"    //平方
+#define FlCommonFontBoldName  IOS9_OR_LATER ? @"Helvetica-Light" : @"PingFangSC-Semibold"   //平方黑粗体
+
+#endif /* PrefixHeader_pch */
+
+
+//----------------------ABOUT PRINTING LOG 打印日志 ----------------------------
+//Using dlog to print while in debug model.        调试状态下打印日志
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#   define DRetainLog(obj)     DLog(@"retain count = %@",[obj valueForKey:@"retainCount"]);
+#else
+#   define DLog(...)
+#   define DRetainLog(obj)
+#endif
+
+//----------------------ABOUT COLOR 颜色相关 ----------------------------
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+#define DefineUnitItemColor [UIColor colorWithHexRGB:0x45454c]
+
+
+/**
+ *  强弱引用转换，用于解决代码块（block）与强引用self之间的循环引用问题
+ *  调用方式: `@weakify_self`实现弱引用转换，`@strongify_self`实现强引用转换
+ *
+ *  示例：
+ *  @weakify_self
+ *  [obj block:^{
+ *  @strongify_self
+ *      self.property = something;
+ *  }];
+ */
+#ifndef    weakify_self
+#if __has_feature(objc_arc)
+#define weakify_self autoreleasepool{} __weak __typeof__(self) weakSelf = self;
+#else
+#define weakify_self autoreleasepool{} __block __typeof__(self) blockSelf = self;
+#endif
+#endif
+#ifndef    strongify_self
+#if __has_feature(objc_arc)
+#define strongify_self try{} @finally{} __typeof__(weakSelf) self = weakSelf;
+#else
+#define strongify_self try{} @finally{} __typeof__(blockSelf) self = blockSelf;
+#endif
+#endif
+
+//-----------------------旋转角度相关-----------------------------------
+/* 弧度转角度 */
+#define SK_RADIANS_TO_DEGREES(radian) \
+((radian) * (180.0 / M_PI))
+/* 角度转弧度 */
+#define SK_DEGREES_TO_RADIANS(angle) \
+((angle) / 180.0 * M_PI)
+
+
+#define AppThemeTraditionFont [UIFont SHSystemFontOfSize:14]
+
+
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+#define iOS8_2Later ([UIDevice currentDevice].systemVersion.floatValue >= 8.2f)
+
+
+#define dispatch_async_main_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+
