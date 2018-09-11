@@ -8,10 +8,6 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
@@ -34,9 +30,7 @@
 #import "HJGNetManger.h"
 #import <BANetManager.h>
 #import "HJGButton.h"
-
 #import "UIFont+HJGFont.h"
-
 #import "UIColor+AppTheme.h"
 #import "NSString+SizeFont.h"
 #import "UITableView+FDTemplateLayoutCell.h"
@@ -44,10 +38,8 @@
 #import "NSMutableArray+Addition.h"
 #import "NSArray+MasoryJiugongge.h"
 #import "NSMutableDictionary+Addition.h"
-//#import "UIControl+Custom.h"
 #import "UIButton+CustomClick.h"
 #import "NSDictionary+HJGDictionary.h"
-//#import "UIControl+Custom.h"
 #import "UIView+Badge.h"
 
 
@@ -58,15 +50,7 @@
 #import "HJGBaseDataModel.h"
 #import "HJGBaseViewModel.h"
 #import "HJGSaveTool.h"
-//#import "HJGToolMethod.h"
-
-//#import "HJGMacro.h"
-//#import "HJGLoginBaseModel.h"
-//#import "FLShare.h"
-//#import "MJCSegmentInterface.h"
-//#import <TYTabPagerController.h>
 #import "HJGGoogleA.h"
-//#import "HJGChatGetNickName.h"
 
 
 #define IOS8_OR_LATER        ( [[[UIDevice currentDevice] systemVersion] compare:@"8.0"] != NSOrderedAscending )
@@ -103,17 +87,6 @@
 #define DefineUnitItemColor [UIColor colorWithHexRGB:0x45454c]
 
 
-/**
- *  强弱引用转换，用于解决代码块（block）与强引用self之间的循环引用问题
- *  调用方式: `@weakify_self`实现弱引用转换，`@strongify_self`实现强引用转换
- *
- *  示例：
- *  @weakify_self
- *  [obj block:^{
- *  @strongify_self
- *      self.property = something;
- *  }];
- */
 #ifndef    weakify_self
 #if __has_feature(objc_arc)
 #define weakify_self autoreleasepool{} __weak __typeof__(self) weakSelf = self;
@@ -137,9 +110,7 @@
 #define SK_DEGREES_TO_RADIANS(angle) \
 ((angle) / 180.0 * M_PI)
 
-
 #define AppThemeTraditionFont [UIFont SHSystemFontOfSize:14]
-
 
 #define SuppressPerformSelectorLeakWarning(Stuff) \
 do { \
