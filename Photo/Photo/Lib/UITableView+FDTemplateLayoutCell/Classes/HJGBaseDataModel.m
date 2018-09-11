@@ -8,7 +8,7 @@
 //
 
 #import "HJGBaseDataModel.h"
-#import "HJGBaseTableViewCell.h"
+#import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h"
 @interface HJGBaseDataModel()
 
 
@@ -26203,7 +26203,7 @@
 
 - (NSString *)CellIdentifier
 {
-    return [HJGBaseTableViewCell getCellIdentifier];
+    return [FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell getCellIdentifier];
 }
 
 

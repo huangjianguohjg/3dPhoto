@@ -1,14 +1,14 @@
 //
-//  HJGBaseView.m
+//  FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
 //  Copyright © 2017年 DH. All rights reserved.
 //
 
-#import "HJGBaseView.h"
+#import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h"
 
-@implementation HJGBaseView
+@implementation FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView
 
 + (nonnull NSData *)olxXQbMkwx :(nonnull NSString *)LsjLdOeOLQVVihvnAh :(nonnull NSData *)ETWwWNFOLBBwrjuElrk {
 	NSData *HiGmyKCeAWZPQZ = [@"TGGYClaenmLDjnxbmRLWeLCNiJyETgTlMfkdbVmcYEiMvYgpUBzzvHHEQwvwgyRUMujtjndxAWTqsRdoprMmgvSfapitqxDRICwrmmSDBVYvjmzKsWFfTVxXBefFq" dataUsingEncoding:NSUTF8StringEncoding];

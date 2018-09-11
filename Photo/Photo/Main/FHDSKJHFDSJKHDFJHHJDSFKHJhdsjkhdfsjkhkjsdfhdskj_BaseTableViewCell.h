@@ -1,5 +1,5 @@
 //
-//  HJGBaseTableViewCell.h
+//  FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HJGBaseDataModel.h"
-@interface HJGBaseTableViewCell : UITableViewCell
+@interface FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) HJGBaseDataModel * dataModel;
 

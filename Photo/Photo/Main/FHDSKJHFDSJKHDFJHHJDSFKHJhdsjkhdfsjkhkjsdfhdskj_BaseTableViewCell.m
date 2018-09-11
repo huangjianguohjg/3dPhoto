@@ -1,14 +1,14 @@
 //
-//  HJGBaseTableViewCell.m
+//  FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
 //  Copyright © 2017年 DH. All rights reserved.
 //
 
-#import "HJGBaseTableViewCell.h"
+#import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h"
 
-@implementation HJGBaseTableViewCell
+@implementation FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell
 
 
 - (void)awakeFromNib {

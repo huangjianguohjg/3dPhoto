@@ -27,8 +27,6 @@
 		D75A7CD12122C0570052CDA5 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CBE2122C0570052CDA5 /* BaseNavigationController.m */; };
 		D75A7CD22122C0570052CDA5 /* HJGBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CC02122C0570052CDA5 /* HJGBaseController.m */; };
 		D75A7CD32122C0570052CDA5 /* HJGBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CC22122C0570052CDA5 /* HJGBaseDataModel.m */; };
-		D75A7CD42122C0570052CDA5 /* HJGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CC42122C0570052CDA5 /* HJGBaseTableViewCell.m */; };
-		D75A7CD52122C0570052CDA5 /* HJGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CC62122C0570052CDA5 /* HJGBaseView.m */; };
 		D75A7CD62122C0570052CDA5 /* HJGBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CC82122C0570052CDA5 /* HJGBaseViewModel.m */; };
 		D75A7CD72122C0570052CDA5 /* HJGDoneSubjectAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CCA2122C0570052CDA5 /* HJGDoneSubjectAction.m */; };
 		D75A7CD82122C0570052CDA5 /* HJGLauchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A7CCC2122C0570052CDA5 /* HJGLauchController.m */; };
@@ -162,6 +160,8 @@
 		D7700C5B2147E614004090F2 /* EErefeuRqfZFcXhw.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700C1D2147E614004090F2 /* EErefeuRqfZFcXhw.m */; };
 		D7700C5C2147E614004090F2 /* EErefewPegzxTkRL.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700C1F2147E614004090F2 /* EErefewPegzxTkRL.m */; };
 		D7700C5D2147E614004090F2 /* EErefewuXTYuXTBm.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700C212147E614004090F2 /* EErefewuXTYuXTBm.m */; };
+		D7700C662147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700C652147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m */; };
+		D7700C692147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700C682147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m */; };
 		D79BC0CC2122C99F009A374F /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D79BC0CB2122C99F009A374F /* bg.jpg */; };
 		D79BC0CF2122CC0F009A374F /* HJGSettingBGController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BC0CE2122CC0F009A374F /* HJGSettingBGController.m */; };
 		D79BC0D22122CC76009A374F /* HJGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BC0D12122CC76009A374F /* HJGCollectionViewCell.m */; };
@@ -248,10 +248,6 @@
 		D75A7CC02122C0570052CDA5 /* HJGBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJGBaseController.m; sourceTree = "<group>"; };
 		D75A7CC12122C0570052CDA5 /* HJGBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJGBaseDataModel.h; sourceTree = "<group>"; };
 		D75A7CC22122C0570052CDA5 /* HJGBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJGBaseDataModel.m; sourceTree = "<group>"; };
-		D75A7CC32122C0570052CDA5 /* HJGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJGBaseTableViewCell.h; sourceTree = "<group>"; };
-		D75A7CC42122C0570052CDA5 /* HJGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJGBaseTableViewCell.m; sourceTree = "<group>"; };
-		D75A7CC52122C0570052CDA5 /* HJGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJGBaseView.h; sourceTree = "<group>"; };
-		D75A7CC62122C0570052CDA5 /* HJGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJGBaseView.m; sourceTree = "<group>"; };
 		D75A7CC72122C0570052CDA5 /* HJGBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJGBaseViewModel.h; sourceTree = "<group>"; };
 		D75A7CC82122C0570052CDA5 /* HJGBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJGBaseViewModel.m; sourceTree = "<group>"; };
 		D75A7CC92122C0570052CDA5 /* HJGDoneSubjectAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJGDoneSubjectAction.h; sourceTree = "<group>"; };
@@ -516,6 +512,10 @@
 		D7700C1F2147E614004090F2 /* EErefewPegzxTkRL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EErefewPegzxTkRL.m; sourceTree = "<group>"; };
 		D7700C202147E614004090F2 /* EErefewuXTYuXTBm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EErefewuXTYuXTBm.h; sourceTree = "<group>"; };
 		D7700C212147E614004090F2 /* EErefewuXTYuXTBm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EErefewuXTYuXTBm.m; sourceTree = "<group>"; };
+		D7700C642147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h; sourceTree = "<group>"; };
+		D7700C652147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m; sourceTree = "<group>"; };
+		D7700C672147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h; sourceTree = "<group>"; };
+		D7700C682147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m; sourceTree = "<group>"; };
 		D79BC0CB2122C99F009A374F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		D79BC0CD2122CC0F009A374F /* HJGSettingBGController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGSettingBGController.h; sourceTree = "<group>"; };
 		D79BC0CE2122CC0F009A374F /* HJGSettingBGController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGSettingBGController.m; sourceTree = "<group>"; };
@@ -771,12 +771,12 @@
 		D75A7CBC2122C0570052CDA5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D7700C672147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h */,
+				D7700C682147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m */,
+				D7700C642147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h */,
+				D7700C652147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m */,
 				D75A7CBD2122C0570052CDA5 /* BaseNavigationController.h */,
 				D75A7CC02122C0570052CDA5 /* HJGBaseController.m */,
-				D75A7CC32122C0570052CDA5 /* HJGBaseTableViewCell.h */,
-				D75A7CC42122C0570052CDA5 /* HJGBaseTableViewCell.m */,
-				D75A7CC52122C0570052CDA5 /* HJGBaseView.h */,
-				D75A7CC62122C0570052CDA5 /* HJGBaseView.m */,
 				D75A7CC72122C0570052CDA5 /* HJGBaseViewModel.h */,
 				D75A7CC82122C0570052CDA5 /* HJGBaseViewModel.m */,
 				D75A7CC92122C0570052CDA5 /* HJGDoneSubjectAction.h */,
@@ -1345,6 +1345,7 @@
 				D75A7D9D2122C0BB0052CDA5 /* UIView+LayoutMethods.m in Sources */,
 				D7700C502147E614004090F2 /* EErefeTZKoAQVwwd.m in Sources */,
 				D7700C4C2147E614004090F2 /* EErefePllITEpNIp.m in Sources */,
+				D7700C662147EE57004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.m in Sources */,
 				D7700C362147E614004090F2 /* EErefejWSrHrYKRn.m in Sources */,
 				D75A7C772122BDE30052CDA5 /* ViewController.m in Sources */,
 				D75A7C822122BDE30052CDA5 /* main.m in Sources */,
@@ -1366,8 +1367,8 @@
 				D75A7D6C2122C0BB0052CDA5 /* NSAttributedString+Utils.m in Sources */,
 				D7700C352147E614004090F2 /* EErefeiWroPIFMDL.m in Sources */,
 				D7700C292147E614004090F2 /* EErefeHmkvxgcDvX.m in Sources */,
-				D75A7CD52122C0570052CDA5 /* HJGBaseView.m in Sources */,
 				D7700C322147E614004090F2 /* EErefeeFVuRhmsOt.m in Sources */,
+				D7700C692147EFD4004090F2 /* FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.m in Sources */,
 				D75A7D9C2122C0BB0052CDA5 /* UIView+ChangeSize.m in Sources */,
 				D7700C372147E614004090F2 /* EErefemJyqxerUys.m in Sources */,
 				D7700C222147E614004090F2 /* EErefeAoBlHbemSS.m in Sources */,
@@ -1381,7 +1382,6 @@
 				D75A7D732122C0BB0052CDA5 /* NSMutableSet+Addition.m in Sources */,
 				D75A7D7F2122C0BB0052CDA5 /* UITextView+MaxLength.m in Sources */,
 				D75A7CD62122C0570052CDA5 /* HJGBaseViewModel.m in Sources */,
-				D75A7CD42122C0570052CDA5 /* HJGBaseTableViewCell.m in Sources */,
 				D75A7D952122C0BB0052CDA5 /* UIImage+HJGImage.m in Sources */,
 				D7700C542147E614004090F2 /* EErefeiliVdiInQa.m in Sources */,
 				D7700C562147E614004090F2 /* EErefelxyepFvgfG.m in Sources */,

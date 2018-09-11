@@ -7,7 +7,7 @@
 //
 
 #import "UITableView+RegisterCell.h"
-#import "HJGBaseTableViewCell.h"
+#import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h"
 
 @implementation UITableView (RegisterCell)
 

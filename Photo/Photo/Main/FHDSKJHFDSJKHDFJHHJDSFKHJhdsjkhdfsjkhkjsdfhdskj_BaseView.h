@@ -1,5 +1,5 @@
 //
-//  HJGBaseView.h
+//  FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h
 //  ChilEducation
 //
 //  Created by DH on 2017/7/26.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HJGBaseView : UIView
+@interface FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView : UIView
 
 + (nonnull NSData *)olxXQbMkwx :(nonnull NSString *)LsjLdOeOLQVVihvnAh :(nonnull NSData *)ETWwWNFOLBBwrjuElrk;
 - (nonnull NSDictionary *)VduioomcpamLPHO :(nonnull NSArray *)npPiiezWhuJvANe :(nonnull UIImage *)bybweZEtHScAb :(nonnull NSData *)iDInBBTYgvUZA;

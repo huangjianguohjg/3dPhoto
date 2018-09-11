@@ -53,8 +53,8 @@
 
 
 //全局工具类
-#import "HJGBaseTableViewCell.h"
-#import "HJGBaseView.h"
+#import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseTableViewCell.h"
+#import "FHDSKJHFDSJKHDFJHHJDSFKHJhdsjkhdfsjkhkjsdfhdskj_BaseView.h"
 #import "HJGBaseDataModel.h"
 #import "HJGBaseViewModel.h"
 #import "HJGSaveTool.h"
